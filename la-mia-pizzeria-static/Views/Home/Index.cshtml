@@ -1,56 +1,61 @@
 ﻿@{
     Layout = null;
 }
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] | la mia pizzeria</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/la_mia_pizzeria_static.styles.css" asp-append-version="true" />
-</head>
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>@ViewData["Title"] | la mia pizzeria</title>
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/la_mia_pizzeria_static.styles.css" asp-append-version="true" />
+    </head>
+    <body>
 
-<div class="text-center container">
-    <table class="table">
-        <thead>
+    <div class="text-center container">
+        <table class="table">
+            <thead>
             
-            <tr>
-                <th scope="col">Nome</th>
-                <th scope="col">Descrizione</th>
-                <th scope="col">Foto</th>
-                <th scope="col">Prezzo(€)</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td class="fw-bold">Margherita</td>
-                <td class="fw-bold">La pizza Margherita è la tipica pizza napoletana, condita con pomodoro, mozzarella, basilico fresco, sale e olio;</td>
-                <td class="fw-bold"><img class="img-fluid w-25" src="~/img/pizza-napoletana.jpg" /></td>
-                <td class="fw-bold">5</td>
+                <tr>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Descrizione</th>
+                    <th scope="col">Foto</th>
+                    <th scope="col">Prezzo(€)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="fw-bold">Margherita</td>
+                    <td class="fw-bold">La pizza Margherita è la tipica pizza napoletana, condita con pomodoro, mozzarella, basilico fresco, sale e olio;</td>
+                    <td class="fw-bold"><img class="img-fluid w-25" src="~/img/pizza-napoletana.jpg" /></td>
+                    <td class="fw-bold">5</td>
 
-            </tr>
-            <tr>
-                <td class="fw-bold">Marinara</td>
-                <td class="fw-bold">La pizza alla marinara è una tipica pizza napoletana condita con pomodoro, aglio, origano, olio.</td>
-                <td><img class="img-fluid w-25" src="~/img/Pizza_marinara.jpg" /></td>
-                <td class="fw-bold">4</td>
+                </tr>
+                <tr>
+                    <td class="fw-bold">Marinara</td>
+                    <td class="fw-bold">La pizza alla marinara è una tipica pizza napoletana condita con pomodoro, aglio, origano, olio.</td>
+                    <td><img class="img-fluid w-25" src="~/img/Pizza_marinara.jpg" /></td>
+                    <td class="fw-bold">4</td>
                
-            </tr>
-            <tr>
-                <td class="fw-bold">Capricciosa</td>
-                <td class="fw-bold">La pizza capricciosa è una pizza tipica della cucina italiana caratterizzata da un condimento di pomodoro, mozzarella, prosciutto cotto, funghi, olive verdi e nere, e carciofini e spesso uova.</td>
-                <td class="fw-bold"><img class="img-fluid w-25" src="~/img/Pizza_capricciosa.jpg" /></td>
-                <td class="fw-bold">8</td>
+                </tr>
+                <tr>
+                    <td class="fw-bold">Capricciosa</td>
+                    <td class="fw-bold">La pizza capricciosa è una pizza tipica della cucina italiana caratterizzata da un condimento di pomodoro, mozzarella, prosciutto cotto, funghi, olive verdi e nere, e carciofini e spesso uova.</td>
+                    <td class="fw-bold"><img class="img-fluid w-25" src="~/img/Pizza_capricciosa.jpg" /></td>
+                    <td class="fw-bold">8</td>
                 
                 
-            </tr>
-            <tr>
-                <td class="fw-bold">Diavola</td>
-                <td class="fw-bold">La pizza diavola è una variazione della pizza margherita con l'aggiunta di salame piccante. </td>
-                <td class="fw-bold"><img class="img-fluid w-25" src="~/img/pizza_diavola.jpg" /></td>
-                <td class="fw-bold">7</td>
+                </tr>
+                <tr>
+                    <td class="fw-bold">Diavola</td>
+                    <td class="fw-bold">La pizza diavola è una variazione della pizza margherita con l'aggiunta di salame piccante. </td>
+                    <td class="fw-bold"><img class="img-fluid w-25" src="~/img/pizza_diavola.jpg" /></td>
+                    <td class="fw-bold">7</td>
 
-            </tr>
-        </tbody>
-    </table>
-</div>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    </body>
+</html>
